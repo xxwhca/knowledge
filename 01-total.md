@@ -80,3 +80,11 @@ CSS预处理器的原理: 是将类 CSS 语言通过 Webpack 编译 转成浏览
    * opacity
    * color
 
+### JS
+#### 1. 原型 / 构造函数 / 实例 / 原型链
+[知识点](https://www.jianshu.com/p/dee9f8b14771)
+[知识点](https://www.jianshu.com/p/652991a67186)
+[知识点](https://www.jianshu.com/p/a4e1e7b6f4f8)
+#### 2. 执行上下文
+#### 20. 函数柯里化
+[知识点](https://www.cnblogs.com/ailingstar/p/12425649.html)
