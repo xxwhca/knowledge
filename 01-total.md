@@ -81,10 +81,35 @@ CSS预处理器的原理: 是将类 CSS 语言通过 Webpack 编译 转成浏览
    * color
 
 ### JS
-#### 1. 原型 / 构造函数 / 实例 / 原型链
-[知识点](https://www.jianshu.com/p/dee9f8b14771)
-[知识点](https://www.jianshu.com/p/652991a67186)
-[知识点](https://www.jianshu.com/p/a4e1e7b6f4f8)
-#### 2. 执行上下文
+#### 1. 原型 / 构造函数 / 实例 / 原型链  
+
+[知识点](https://www.jianshu.com/p/dee9f8b14771)  
+
+[知识点](https://www.jianshu.com/p/652991a67186)  
+
+[知识点](https://www.jianshu.com/p/a4e1e7b6f4f8)  
+
+
+#### 2. 执行上下文  
+执行上下文可以简单理解为一个对象:  
+它包含三个部分:  
+* 变量对象(VO)
+* 作用域链(词法作用域)
+* this指向
+
+它的类型:
+* 全局执行上下文
+* 函数执行上下文
+* eval执行上下文
+
+代码执行过程:  
+* 创建 全局上下文 (global EC)
+* 全局执行上下文 (caller) 逐行 自上而下 执行。遇到函数时，函数执行上下文 (callee) 被push到执行栈顶层
+* 函数执行上下文被激活，成为 active EC, 开始执行函数中的代码，caller 被挂起
+* 函数执行完后，callee 被pop移除出执行栈，控制权交还全局上下文 (caller)，继续执行
+[知识点](https://www.jianshu.com/p/a6d37c77e8db)  
+
+#### 3. 变量对象
+[知识点](https://www.jianshu.com/p/330b1505e41d)
 #### 20. 函数柯里化
 [知识点](https://www.cnblogs.com/ailingstar/p/12425649.html)
