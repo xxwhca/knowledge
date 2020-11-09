@@ -115,8 +115,11 @@ CSS预处理器的原理: 是将类 CSS 语言通过 Webpack 编译 转成浏览
 #### 4. 作用域/作用域链  
 [知识点](https://www.cnblogs.com/fundebug/p/10535230.html)  
 
-##### 5. 闭包
+#### 5. 闭包
 [知识点](https://github.com/xxwhca/knowledge/blob/main/01-%E9%97%AD%E5%8C%85.md)  
+
+#### 6. 对象的拷贝
+[知识点](https://segmentfault.com/a/1190000019977308)  
 
 #### 20. 函数柯里化
 [知识点](https://www.cnblogs.com/ailingstar/p/12425649.html)
