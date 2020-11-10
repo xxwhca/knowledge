@@ -121,5 +121,27 @@ CSS预处理器的原理: 是将类 CSS 语言通过 Webpack 编译 转成浏览
 #### 6. 对象的拷贝
 [知识点](https://segmentfault.com/a/1190000019977308)  
 
+#### 7. new运算符的执行过程
+[知识点](https://blog.csdn.net/qq_43553067/article/details/88077564)
+
+#### 8. instanceof 原理  
+能在实例的 原型对象链 中找到该构造函数的prototype属性所指向的 原型对象，就返回true。即:  
+```
+// __proto__: 代表原型对象链
+instance.[__proto__...] === instance.constructor.prototype
+
+// return true
+```
+[知识点](https://www.cnblogs.com/ysk123/p/10006786.html)
+
+#### 9. 代码的复用
+当你发现任何代码开始写第二遍时，就要开始考虑如何复用。一般有以下的方式:
+
+* 函数封装
+* 继承
+* 复制`extend`
+* 混入`mixin`
+* 借用`apply/call`
+
 #### 20. 函数柯里化
 [知识点](https://www.cnblogs.com/ailingstar/p/12425649.html)
