@@ -141,7 +141,24 @@ instance.[__proto__...] === instance.constructor.prototype
 * 继承
 * 复制`extend`
 * 混入`mixin`
-* 借用`apply/call`
+* 借用`apply/call`  
 
+#### 10. 继承(不会不会不会)
+在 JS 中，继承通常指的便是 原型链继承，也就是通过指定原型，并可以通过原型链继承原型上的属性或者方法。  
+[知识点](https://www.cnblogs.com/humin/p/4556820.html)
+
+#### 11. 类型转换
+* `-、*、/、% `：一律转换成数值后计算
+* +：
+   * 数字 + 字符串 = 字符串， 运算顺序是从左到右
+   * 数字 + 对象， 优先调用对象的valueOf -> toString
+   * 数字 + boolean/null -> 数字
+   * 数字 + undefined -> NaN
+* `[1].toString() === '1'`
+* `{}.toString() === '[object object]'`
+* `NaN !== NaN` 、`+undefined 为 NaN`
+
+#### 12. 类型判断
+[知识点](https://www.cnblogs.com/yadiblogs/p/10750775.html)
 #### 20. 函数柯里化
 [知识点](https://www.cnblogs.com/ailingstar/p/12425649.html)
