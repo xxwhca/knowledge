@@ -171,5 +171,10 @@ instance.[__proto__...] === instance.constructor.prototype
    * require支持 动态导入，import不支持，正在提案 (babel 下可支持)
    * require是 同步 导入，import属于 异步 导入
    * require是 值拷贝，导出值变化不会影响导入值；import指向 内存地址，导入值会随导出值而变化
+#### 14. 防抖与节流
+#### 15. 函数执行改变this
+[知识点](https://www.cnblogs.com/pssp/p/5216085.html)
+[知识点](https://blog.csdn.net/xuehangongzi/article/details/80841167)
+
 #### 20. 函数柯里化
 [知识点](https://www.cnblogs.com/ailingstar/p/12425649.html)
